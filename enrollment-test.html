@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment - WRP1999693</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; color: #333; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        .enrollment-header { background: #fff; padding: 16px 24px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .enrollment-header h1 { font-size: 18px; color: #555; font-weight: 400; }
+        .tabs { display: flex; gap: 0; background: #fff; border-radius: 8px 8px 0 0; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .tab { padding: 14px 24px; cursor: pointer; font-size: 14px; color: #666; border-bottom: 3px solid transparent; }
+        .tab.active { color: #1a73e8; border-bottom-color: #1a73e8; font-weight: 500; }
+        .tab:hover { background: #f8f9fa; }
+        .content { background: #fff; padding: 24px; border-radius: 0 0 8px 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .section-title { font-size: 16px; font-weight: 600; margin-bottom: 16px; color: #333; }
+        .document-row { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; border-bottom: 1px solid #eee; }
+        .document-row:last-child { border-bottom: none; }
+        .doc-label { font-size: 14px; color: #555; }
+        .doc-status { padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 500; }
+        .status-required { background: #fff3e0; color: #e65100; }
+        .doc-actions { display: flex; align-items: center; gap: 12px; }
+        .see-docs { color: #1a73e8; font-size: 13px; text-decoration: underline; cursor: pointer; }
+        .upload-section { margin-top: 24px; text-align: center; }
+        .upload-section h3 { font-size: 15px; margin-bottom: 8px; }
+        .upload-section p { font-size: 13px; color: #666; margin-bottom: 20px; }
+        .upload-methods { display: flex; gap: 20px; justify-content: center; }
+        .upload-method { background: #f8f9fa; border: 1px solid #ddd; border-radius: 8px; padding: 24px 32px; text-align: center; cursor: pointer; min-width: 200px; }
+        .upload-method:hover { border-color: #1a73e8; background: #e8f0fe; }
+        .upload-method h4 { font-size: 14px; margin-bottom: 8px; color: #333; }
+        .upload-method p { font-size: 12px; color: #1a73e8; text-decoration: underline; }
+        .info-section { margin-top: 32px; background: #f8f9fa; border-radius: 8px; padding: 24px; }
+        .info-section h3 { font-size: 15px; margin-bottom: 16px; }
+        .info-tabs { display: flex; gap: 0; margin-bottom: 16px; border-bottom: 1px solid #ddd; }
+        .info-tab { padding: 8px 16px; cursor: pointer; font-size: 13px; color: #666; border-bottom: 2px solid transparent; }
+        .info-tab.active { color: #1a73e8; border-bottom-color: #1a73e8; }
+        .info-content { font-size: 13px; line-height: 1.7; color: #444; }
+        .info-content h4 { font-size: 14px; margin: 12px 0 8px; color: #333; }
+        .info-content ul { padding-left: 20px; margin: 8px 0; }
+        .info-content li { margin-bottom: 4px; }
+        .info-content .note { background: #fff; border-left: 3px solid #1a73e8; padding: 10px 14px; margin: 12px 0; font-size: 12px; color: #555; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="enrollment-header">
+            <h1>Enrollment ID: WRP1999693</h1>
+        </div>
+        <div class="tabs">
+            <div class="tab">Personal Info</div>
+            <div class="tab">Eligibility</div>
+            <div class="tab">Plans</div>
+            <div class="tab active">Preview</div>
+        </div>
+        <div class="content">
+            <div class="section-title">Required Documents</div>
+
+            <div class="document-row">
+                <span class="doc-label">Proof of Eligibility</span>
+                <div class="doc-actions">
+                    <span class="doc-status status-required">Status</span>
+                    <span class="doc-status status-required">Required</span>
+                    <span class="see-docs">See acceptable documents</span>
+                </div>
+            </div>
+
+            <div class="document-row">
+                <span class="doc-label">Additional Proof</span>
+                <div class="doc-actions">
+                    <span class="doc-status status-required">Status</span>
+                    <span class="doc-status status-required">Required</span>
+                    <span class="see-docs">See acceptable documents</span>
+                </div>
+            </div>
+
+            <div class="upload-section">
+                <h3>Submit Your Proof Now!</h3>
+                <p>Click one of the methods listed to get started.</p>
+                <div class="upload-methods">
+                    <div class="upload-method">
+                        <h4>UPLOAD PROOF</h4>
+                        <p>Upload a photo of your proof</p>
+                        <p style="margin-top:8px;">Click here</p>
+                    </div>
+                    <div class="upload-method">
+                        <h4>WEBCAM</h4>
+                        <p>Take a photo with a webcam</p>
+                        <p style="margin-top:8px;">Click here</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h3>What proof can be used?</h3>
+                <p style="font-size:13px;color:#555;margin-bottom:16px;">Submit any of the following proof document types to show your eligibility:</p>
+
+                <div class="info-tabs">
+                    <div class="info-tab active">Government Programs Proof</div>
+                    <div class="info-tab">Income Proof</div>
+                </div>
+
+                <div class="info-content">
+                    <p>To prove participation in your qualifying program, you must provide a document that, at a minimum, includes:</p>
+                    <ul>
+                        <li>Your name, or the name of your benefit qualifying person (BQP);</li>
+                        <li>The name of the Lifeline-qualifying program, such as SNAP;</li>
+                        <li>The government or Tribal program administrator or the managed care organization (MCO) that issued the document; and</li>
+                        <li>An issue date within the last 12 months or a future expiration date that aligns with the benefit period.</li>
+                    </ul>
+
+                    <p style="margin-top:16px;">These documents listed below could possibly be used if they meet the criteria listed above:</p>
+
+                    <h4>Food Stamp Benefit Card</h4>
+                    <p>SNAP, CalFresh, Golden State Advantage, or WIC Card or award letter</p>
+                    <div class="note">You will need to upload both the FRONT AND BACK OF THESE CARDS</div>
+                    <div class="note">You will need to upload a transaction receipt dated within 7 days</div>
+                    <div class="note">Receipt must show date, last 4 digits of card, and purchase, or card balance greater than zero</div>
+
+                    <h4>Medi-CAL or Medicaid Card</h4>
+                    <div class="note">You will need to upload both the FRONT AND BACK OF THESE CARDS</div>
+
+                    <h4>California Benefits ID Card</h4>
+                    <div class="note">You will need to upload both the FRONT AND BACK OF THESE CARDS</div>
+
+                    <h4>SSI Benefits Document</h4>
+
+                    <h4>Veterans Pension/VA Survivors Payment History, Summary of Benefits or Award letter</h4>
+
+                    <h4>Section 8 Housing Voucher</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
